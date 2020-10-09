@@ -1,0 +1,47 @@
+.container {
+  width: 735px;
+  height: 300px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.immagine {
+  width: 242px;
+  height: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.prodotto {
+  position: absolute;
+  height: 100%;
+}
+
+.perc {
+  background-color: red;
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  display: block;
+}
+
+.perc2 {
+  background-color: green;
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  display: block;
+}
+
+.heart {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  display: none;
+  color: red;
+}
+.immagine:hover .heart {
+  display: block;
+}
